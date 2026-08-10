@@ -1,0 +1,25 @@
+{
+  "name": "newarch-backend",
+  "version": "1.0.0",
+  "description": "Backend API for NEWARCH ENG CONSULTANTS LLC",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed:projects": "node scripts/seedProjects.js"
+  },
+  "keywords": ["engineering", "consultants", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
